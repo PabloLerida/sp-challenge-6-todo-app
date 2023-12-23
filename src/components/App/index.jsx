@@ -8,7 +8,10 @@ import TaskInput from '../TaskInput'
 import CheckList from '../CheckList'
 import TasksLeft from '../TasksLeft'
 import Filters from '../Filters'
+
 import styles from './styles.module.css'
+
+
 
 /**
  * Componente principal de la aplicación.
@@ -89,6 +92,7 @@ function App() {
           <TasksLeft theme={theme} tasks={tasks} />
           <Filters theme={theme} filterAll={filterAll} filterActive={filterActive}
             filterCompleted={filterCompleted} clearTasks={clearTasks} />
+        
         </div>
       </div>
     </main>

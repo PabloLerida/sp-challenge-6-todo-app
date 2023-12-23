@@ -40,3 +40,24 @@
 .lightFooter {
     background-color: white;
 }
+
+@media screen and (max-width: 375px) {
+    .layout{
+        max-width: 375px;
+    }
+
+    .background{
+        max-width: 375px;
+        height: 200px;
+    }
+    .content{
+        width: 350px;
+    }
+
+    .darkFooter{
+        width: 375px;
+    }
+    .lightFooter{
+        width: 375px;
+    }
+}
